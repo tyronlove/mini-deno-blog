@@ -73,7 +73,7 @@ function handle (config, postname) {
     <div class='col three'>
     <a href="/"><img class='profile' src=${config.avatar || 'https://deno-avatar.deno.dev/avatar/blog.svg'} /></a>
     <h1><a href="/">${config.title || 'My Deno Blog'}</a></h1>
-    <h6>${config.description || 'This is my blog description.'}</h6>
+    <p>${config.description || 'This is my blog description.'}</p>
     <hr />
     <ul>${linklist || 'Links'}</ul>
     </div>
