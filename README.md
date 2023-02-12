@@ -1,9 +1,9 @@
 # Minimalist Deno Blog
 A minimalist Deno blog template.
 
-Write an index.js file
+Write an `index.js` file:
 
-import { blog } from './blog.js'
+`import { blog } from './blog.js'
 
 blog({
   title: "Ev's Blog",
@@ -15,5 +15,4 @@ blog({
     { title: 'ev@evbogue.com', url: 'mailto:ev@evbogue.com'},
     { title: 'Bogbook', url: 'https://denobook.com/#ELwPcMFe0kRF9luXO7qDSKXsiCOuQR27JT23L3gz3AE='}
   ]
-})
-and start it with deno run --allow-all index.js
+})`
