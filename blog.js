@@ -56,7 +56,8 @@ async function genlinks (links) {
 function handle (config, postname) {
   const post = postStore.get(postname)
   const head = `
-    <html>
+  <!DOCTYPE html>  
+  <html>
       <head>
         <title>${config.title || 'My Deno Blog'}</title>
         <meta name='viewport' content='width=device-width initial-scale=1' />
