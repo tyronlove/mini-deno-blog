@@ -60,7 +60,7 @@ function handle (config, postname) {
       <head>
         <title>${config.title || 'My Deno Blog'}</title>
         <meta name='viewport' content='width=device-width initial-scale=1' />
-        <meta name="robots" content="noindex"> // REMOVE IF YOU WANT YOUR BLOG INDEXED IN SEARCH ENGINES.
+        <meta name="robots" content="noindex">
         <link rel='stylesheet' href='../reserva.css' type='text/css' />
         <link rel='stylesheet' href='../custom.css' type='text/css' />
       </head>
